@@ -11,12 +11,21 @@ export default function App() {
     </div>
   );
 }
+
+export default function App() {
+  return (
+    <div>
+      <h1>Hello StackBlitz!</h1>
+      <p>Start editing to see some magic happen :)</p>
+    </div>
+  );
+}
 export default function App() {
   return (
     <div>
       <Navbar/>
       <div className="container">
-          <Card/>
+          <Card />
       </div>
       
     </div>
